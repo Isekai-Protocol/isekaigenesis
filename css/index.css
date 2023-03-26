@@ -1,0 +1,163 @@
+body {
+	background-color: #000;
+	color: #ccc;
+}
+
+body, html { margin: 0; }
+ul, li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.web-container {
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+.web-header {
+	width: 100%;
+}
+.logo-img {
+	height: 100px;
+	width: 180px;
+	overflow: hidden;
+	padding-left: 40px;
+}
+
+.web-middle {
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 90px;
+}
+
+.middle-left,
+.middle-right {
+	width: 50%;
+}
+
+.middle-left-img {
+	width: 100%;
+	overflow: hidden;
+}
+
+.middle-right {
+	text-align: center;
+	position: relative;
+}
+
+.btn {
+	width: 200px;
+	height: 40px;
+	background-color: transparent;
+	color: #fff;
+	border: 1px solid #9aa7f6;
+	border-radius: 4px;
+	overflow: hidden;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	cursor: pointer;
+}
+
+.middle-rightBtn,
+.middle-rightBtns {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.middle-rightBtn {
+	width: 80%;
+}
+.middle-rightBtns {
+	display: none;
+}
+
+.btn-group .btn {
+	margin: 10px 0;
+}
+
+.btn:disabled {
+	opacity: 0.5;
+	cursor: not-allowed;
+	color: #9aa7f6;
+}
+
+.icon-groups {
+	display: flex;
+  align-items: center;
+	justify-content: flex-end;
+}
+
+.web-footer {
+	padding: 20px 90px;
+}
+
+.icon-groups li {
+	width: 40px;
+	height: 40px;
+	margin-left: 16px;
+	border-radius: 50%;
+	overflow: hidden;
+	text-align: center;
+	line-height: 40px;
+}
+.icon-groups li:first-child {
+	margin-left: 0;
+}
+
+.icon-groups li svg {
+	width: 20px;
+	height: 20px;
+	overflow: hidden;
+}
+.msg{
+	display: none;
+}
+
+
+
+#msg{
+	width:266px;
+	position: fixed;
+	z-index:999;
+	top: 49%;
+	margin-top:-80px;
+	left:50%;
+	margin-left:-133px;
+	background:#fff;
+	box-shadow:5px 5px 8px #999;
+	font-size:17px;
+	color:#666;
+	border:1px solid #f8f8f8;
+	text-align: center;
+	line-height: 2rem;
+	display:inline-block;
+	padding-bottom:20px;
+	border-radius:2px;
+}
+#msg_top{
+	background:#f8f8f8;
+	padding:5px 15px 5px 20px;
+	text-align:left;
+}
+#msg_top span{
+	font-size:22px;
+	float:right;
+	cursor:pointer;
+}
+#msg_cont{
+	padding:15px 20px 20px;
+	text-align:left;
+}
+#msg_clear{
+	display:inline-block;
+	color:#fff;
+	padding:1px 15px;
+	background:#8fc31f;
+	border-radius:2px;
+	float:right;
+	margin-right:15px;
+	cursor:pointer;
+}
