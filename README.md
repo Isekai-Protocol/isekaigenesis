@@ -1,5 +1,6 @@
 # IsekaiGenesis
 
+Node.js repo: https://github.com/Isekai-Protocol/isekai-node
 
 
 ## Getting started
